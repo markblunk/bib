@@ -1,0 +1,25 @@
+= Stealth bib files
+
+
+This is https://cryptobib.di.ens.fr[cryptobib], along with a
+link:./misc.bib[misc.bib] containing references not found in cryptobib.
+
+== Using this
+
+Copy this directory over to your paper and add the following:
+
+....
+\bibliography{bib/cryptobib/abbrev2,bib/cryptobib/crypto,bib/misc}
+....
+
+== Updating
+
+=== Cryptobib
+Run `git submodule update` to update the cryptobib submodule
+
+=== Misc
+
+This is a manual process. Either add a new one or delete one (if it
+gets added to cryptobib) by editing the file. Please following the
+https://cryptobib.di.ens.fr/manual#labeling-conventions[Labeling
+Conventions] from cryptobib for consistency.
