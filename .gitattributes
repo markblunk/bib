@@ -1,0 +1,16 @@
+#
+# For the copyright information for this file, please search up the
+# directory tree for the first COPYING file.
+#
+
+#
+# Disable end-of-line normalization by default.
+#
+
+* -text
+
+#
+# Enable end-of-line normalization for various file extensions.
+#
+
+*.bib text eol=lf
