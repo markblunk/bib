@@ -1,4 +1,4 @@
-= Stealth bib files
+= Mark bib files
 
 
 This is https://cryptobib.di.ens.fr[cryptobib], along with a
